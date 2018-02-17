@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+3.times do |car|
+  Car.create!(model: "BMW",
+              year: 1994,
+              chassis: "e34",
+              description: "my dream car given to me by Caleb for Christmas 2017")
+end
+
+puts "3 cars created"
