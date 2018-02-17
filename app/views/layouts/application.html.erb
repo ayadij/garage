@@ -9,9 +9,12 @@
   </head>
 
   <body>
-    <%= link_to "Home", root_path %>
-    <%= link_to "About", about_path %>
-    <%= link_to "Garage", garage_path %>
+
+    <%= render "shared/application_nav"%>
+
+
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
 
     <%= yield %>
   </body>

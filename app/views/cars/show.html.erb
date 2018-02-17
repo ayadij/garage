@@ -20,5 +20,5 @@
   <%= @car.description %>
 </p>
 
-<%= link_to 'Edit', edit_car_path(@car) %> |
+<%= link_to 'Edit', edit_car_path(@car) if logged_in?(:site_admin)%> |
 <%= link_to 'Back', garage_path %>
