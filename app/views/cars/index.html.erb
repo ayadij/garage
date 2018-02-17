@@ -20,9 +20,9 @@
         <td><%= car.year %></td>
         <td><%= car.chassis %></td>
         <td><%= car.description %></td>
-        <td><%= link_to 'Show', car %></td>
+        <td><%= link_to 'Details', car %></td>
         <td><%= link_to 'Edit', edit_car_path(car) %></td>
-        <td><%= link_to 'Destroy', car, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Remove', car, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +30,4 @@
 
 <br>
 
-<%= link_to 'New Car', new_car_path %>
+<%= link_to 'Add a New Car', new_car_path %>
