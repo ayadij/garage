@@ -6,5 +6,6 @@ class PagesController < ApplicationController
   end
 
   def garage
+    @cars = Car.all
   end
 end
