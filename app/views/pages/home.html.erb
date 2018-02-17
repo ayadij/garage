@@ -1,19 +1,23 @@
 <h1>Welcome</h1>
 
 <ul>
-  <li>Build a rails app with postgresql</li>
+  <li><strike>Build a rails app with postgresql</strike></li>
 
-  <li>create CRUD for blogs</li>
+  <li><strike>create CRUD for blogs</strike></li>
 
-  <li>install devise</li>
+  <li><strike>install devise</strike></li>
 
-  <li>make is so users can only visit the home page with out signing up/in</li>
+  <li><strike>make is so users can only visit the home page with out signing up/in</strike></li>
 
-  <li>install petergate</li>
+  <li><strike>install petergate</strike></li>
 
-  <li>setup an admin who can edit/create/and delete Blogs</li>
+  <li><strike>setup an admin who can edit/create/and delete Blogs</strike></li>
 
-  <li>signed in users should only be able to read Blogs</li>
+  <li><strike>signed in users should only be able to read Blogs</strike></li>
 
-  <li>create a nav bar</li>
+  <li><strike>create a nav bar</strike>></li>
 </ul>
+
+<% if !current_user %>
+  <p>Please <%= link_to "login", new_user_session_path %> to see the rest of the site! </p>
+<% end %>

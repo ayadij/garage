@@ -52,3 +52,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'devise', '~> 4.2'
+gem 'petergate', '~> 1.8', '>= 1.8.1'
