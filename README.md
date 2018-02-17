@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version 2.4.0
 
-Things you may want to cover:
+* Database postgresql
 
-* Ruby version
+* Instructions:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-build a rails app with postgresql
+-create CRUD for blogs
+-install devise
+-install petergate
+-make it so users can only visit the home page when not logged in
+-setup an admin who can edit/create/and delete blogs
+-signed in users should only be able to read blogs
+-create a nav bar
