@@ -1,10 +1,10 @@
 # README
 
-* Ruby version 2.4.0
+### Ruby version 2.4.0
 
-* Database postgresql
+### Database postgresql
 
-* Instructions:
+### Instructions:
 
 - build a rails app with postgresql
 - create CRUD for blogs
