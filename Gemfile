@@ -53,3 +53,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise', '~> 4.2'
 gem 'petergate', '~> 1.8', '>= 1.8.1'
+
+# dependency vulnerabilities 
+gem 'loofah', '~> 2.2.1'
+gem 'rails-html-sanitizer', '~> 1.0.4'
