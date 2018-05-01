@@ -14,3 +14,5 @@
 - setup an admin who can edit/create/and delete blogs
 - signed in users should only be able to read blogs
 - create a nav bar
+
+$ cd Documents/code/practice/practice-rails-apps/applesoup/pork/myCars
